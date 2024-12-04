@@ -6,3 +6,19 @@ div.wraper {
 div.image {
     display: flex;
 }
+
+#slide-1:target ~ .image {
+    margin-left: 0px;
+}
+
+#slide-2:target ~ .image {
+    margin-left: -104%;
+}
+
+#slide-3:target ~ .image {
+    margin-left: -205%;
+}
+
+#slide-4:target ~ .image {
+    margin-left: -308%;
+}
